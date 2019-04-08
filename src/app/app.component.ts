@@ -58,7 +58,7 @@ export class AppComponent {
             console.log('Intilized');
             return false;
           }
-        });
+        }, true);
       },
       "froalaEditor.keydown": (e, editor, keydownEvent) => {
         if(keydownEvent.originalEvent.key === 'Enter' && this.tribute.isActive) {
